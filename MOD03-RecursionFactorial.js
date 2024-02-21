@@ -7,6 +7,8 @@ function factorial(n) {
 }
 
 // Time Complexity: O(n)
+// Every nested/recursive function call new memory is created
+// Space Complexity: O(n)
 
 console.log(factorial(4))
 console.log(factorial(5))
